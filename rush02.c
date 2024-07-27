@@ -1,5 +1,4 @@
 #include "ft_putchar.c"
-#include "rush02.h"
 
 void	print_body_row_char(int posy, int y)
 {
