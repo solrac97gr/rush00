@@ -7,7 +7,7 @@ explanation:
 - The function ft_putchar takes a character as a parameter.
 - The write function is used to display the character on the standard output.
 */
-void ft_putchar(char c)
+void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
@@ -21,7 +21,7 @@ explanation:
 - Inside the loop, use the ft_putchar function to display the character on the standard output.
 - It stops when it reaches the null character. (the end of the string)
 */
-void ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
 	int i;
 
